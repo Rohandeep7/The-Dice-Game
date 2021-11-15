@@ -4,7 +4,7 @@ function myFunc(){
 
 }
 function dice_img(n,id){
-  document.getElementById(id).src="images/dice"+n.toString()+".png"
+  document.getElementById(id).src="dice"+n.toString()+".png"
 }
 function game(){
   var p1=Math.floor(Math.random()*6)+1;
